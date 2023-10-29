@@ -8,6 +8,7 @@ body{
    margin: 0;
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
+   box-shadow: 10px 10px 10px gray, -10px -10px -10px gray;
 }
  
 /* HEADER */
@@ -35,37 +36,104 @@ padding-inline-start: 0px;
 text-align: center;
 }
 
-ul li::before {content: '⭐';}
+#home li::before {content: '⭐';}
 
 /* MAIN */
 
 main {
-background-color: white;
+background-color: rgb(240, 240, 240);
 margin: 3rem;
 padding: 2rem;
+box-shadow: 10px 10px 10px gray, -10px -10px -10px gray; ;
 }
 
 
 
-#pen_orologio {color: lightgray;}
+#pen_orologio {color: rgb(163, 162, 162);}
 
 
 
 table{
 width: 400px;
+height: 300px;
 border-collapse: collapse;
-border-bottom: rgb(25, 122, 232);
 text-align: center;
+border-bottom: color rgb(3, 99, 194):
 }
 
 
 #t1 {
-   background-color: blue;
+   background-color: rgb(3, 96, 202);
+   color:white
 }
-#video {margin:auto
 
 
+.pari {
+   background-color: lightgrey
 }
+
+
+
+#video {
+   border-radius: 20px 20px 20px 20px;
+}
+
+
+h3{
+   text-align: center;
+}
+
+#box1 {
+   background-color: lightgray;
+   padding-left: 10px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+m;}
+
+#box2 {
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#box3 {
+   background-color: lightgray;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+#box4 {
+   background-color: lightgray;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+#box5 {
+   background-color: lightgray;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+.data{
+text-align: right;
+padding-right: 10px;
+}
+
+
+footer{
+   text-align: center;
+      color: rgb(255, 255, 255);
+      background-color: rgb(6, 103, 58);
+      margin: 3rem;
+      padding: 1rem; 
+      box-shadow: 10px 10px 10px gray, -10px -10px -10px gray;
+      }
+      
+
+
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
