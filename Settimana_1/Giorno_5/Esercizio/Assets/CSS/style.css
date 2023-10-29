@@ -131,14 +131,22 @@ font-size: 22px;
 footer{
 text-align: center;
 background-color: rgb(13, 174, 233);
+padding-top: 5%;
 
 }
 
-hr{
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
 #contatacci {
     font-size: 22px;
+    color: white;
+}
+
+#nr{
+    font-size: 12px;
+    color: white;
+}
+
+#end{
+    font-size: 10px;
+    color: white;
 }
