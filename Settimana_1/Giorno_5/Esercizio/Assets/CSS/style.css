@@ -7,10 +7,14 @@ body{
 }
 
 header{
-;
+
 background-color: black;
 height: 180px;
+}
 
+
+h1{
+    font-family: 'Montserrat', sans-serif;
 }
 
 #logo {
