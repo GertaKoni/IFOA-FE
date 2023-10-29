@@ -1,0 +1,45 @@
+
+#main  {padding-left: 800px; 
+    padding-right: 800px;
+
+    padding 
+    }
+
+
+#logo {text-align: center;}
+
+
+#h1 {text-align: center;}
+
+
+#Part { 
+    
+    text-align: center;
+    color: rgb(245, 225, 187); 
+    border-top:  2px solid;
+    background-color: #fdfbf1;
+    padding-bottom: 10px;
+
+} 
+
+img {border-radius: 10px 10px 10px 10px; }
+
+#Image {
+    font-weight: lighter; 
+    color:  rgb(163, 166, 167);
+}
+
+#fresh {color: rgb(243, 239, 5); 
+    border-left: solid; 
+    padding-left: 10px;
+}
+
+#ingredients {border-bottom:  1px solid; color: aquamarine;}
+
+a{color: rgb(6, 164, 164);}
+
+
+
+
+
+
