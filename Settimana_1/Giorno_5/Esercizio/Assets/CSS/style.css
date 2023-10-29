@@ -37,6 +37,7 @@ font-size: 18px;
 }
 
 #button{
+    font-family: 'Montserrat', sans-serif;
     height: 50px;
     width: 100px;
     border-radius: 10px 10px 10px 10px;
@@ -50,11 +51,13 @@ font-size: 18px;
 padding 20px;
 }
 
-h2 {color: rgb(10, 163, 202);
+h2 {
+font-family: 'Montserrat', sans-serif;
+color: rgb(10, 163, 202);
 font-size: 18px;
 }
 
-p { font-family: ;
+p { font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     padding: 5%;
 }
@@ -139,17 +142,20 @@ padding-top: 5%;
 
 
 #contatacci {
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #c8e7f0;
 }
 
 #nr{
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #c8e7f0;
 
 }
 
 #end{
+    font-family: 'Open Sans', sans-serif;
     font-size: 10px;
     color: #c8e7f0;
 }
