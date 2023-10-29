@@ -2,16 +2,70 @@
 @import url@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 html, 
-body {
-    margin: o;
-    padding: 0;
+body{
+   background-image: url(../Images/sfondo.png);
+   padding: 0;
+   margin: 0;
    box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+ 
+/* HEADER */
+header {
+text-align: center;
+color: rgb(255, 255, 255);
+background-color: rgb(9, 115, 145);
+margin: 3rem;
+padding: 2rem; 
+border-radius: 10px 10px 10px 10px;
+box-shadow: 10px 10px 10px gray, -10px -10px -10px gray;
 }
 
-/* HEADER */
+
+ 
+
+#logo { text-align: center;
+    
+}
+
+#home{
+list-style-type: none;
+margin-block-start: 0px;
+padding-inline-start: 0px;
+text-align: center;
+}
+
+ul li::before {content: '⭐';}
 
 /* MAIN */
 
+main {
+background-color: white;
+margin: 3rem;
+padding: 2rem;
+}
+
+
+
+#pen_orologio {color: lightgray;}
+
+
+
+table{
+width: 400px;
+border-collapse: collapse;
+border-bottom: rgb(25, 122, 232);
+text-align: center;
+}
+
+
+#t1 {
+   background-color: blue;
+}
+#video {margin:auto
+
+
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
