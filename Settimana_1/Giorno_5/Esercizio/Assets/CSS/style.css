@@ -9,7 +9,7 @@ body{
 header{
 
 background-color: black;
-height: 180px;
+height: 200px;
 }
 
 
@@ -20,14 +20,13 @@ h1{
 #logo {
     
     text-align: center;
-    padding: 50px;
-    height: 30px;
-    margin-bottom: 30px;
-    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #cover{
 background-image: url(../Images/banner.jpg);
+background-position: cover;
 text-align: center;
 padding-top: 50px;
 padding-bottom: 50px;
@@ -35,6 +34,7 @@ font-size: 22px;
 }
 
 #smetti{
+font-family: 'Open Sans', sans-serif;
 padding-left: 100px;
 padding-right: 100px;
 font-size: 18px;
