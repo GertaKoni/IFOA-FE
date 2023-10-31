@@ -132,8 +132,8 @@ let name1 = 'john';
 let name2 = 'John';
 
 //soluzione 1
-console.log('I due Nomi Sono uguali?', name1 ===name2);
-console.log('I due Nomi Sono uguali?'+ (name1 ===name2));
+console.log('I due Nomi Sono uguali?', name1 === name2);
+console.log('I due Nomi Sono uguali?'+ (name1 === name2));
 
 //soluzione 2
 
