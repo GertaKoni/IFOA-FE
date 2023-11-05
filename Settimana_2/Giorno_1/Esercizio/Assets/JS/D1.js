@@ -13,82 +13,64 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-//Tipi Primitivi
 
-//String : Puoi usarla per scrivere il tuo nome o una frase.
-//Number: I numeri sono semplici
-//Boolean: Puoi usarlo per dire se qualcosa è vero o falso. 
-//Null : Questo è come dire che non c'è niente. Valore assente
-//Undefined:  Questo è un po' come quando dimentichi qualcosa. Non hai idea di cosa sia.
-//Data:In ogni suo formato
 
-//Tipi Complessi
+//String: Per scrivere il tuo nome o una frase
+//Number: Numeri semplici
+//Boolean: Per mostrare se qualquosa e vera o Falsa
+//Null:Questo e come dire che non ce niente. Assente
+//Undefined: Non ce niente, non hai idea cosa sia
+//Data: In ogni suo formato
 
 //Arrey
 //Oggetto
 
 
 /* ESERCIZIO 2
- Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
+ Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let myName ='Gerta';
+
+let myName='Gerta';
 console.log(myName);
+
+
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// Soluzione 1
 
-console.log(12+20);
+let somma(12+20);
 
-//Soluzione 2
-let somma =12+20;
 console.log(somma);
 
-//Soluzione 3
 
-let numero1 =12;
-let numero2 =20;
-console.log(numero1+numero2);
 
-//Soluzione4 (la miglior soluzione)
-
-let nuovoNumero1 =12;
-let nuovoNumero2 =20;
-let nuovaSomma = nuovoNumero1 + nuovoNumero2;
-console.log(nuovaSomma);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
-//
-
+*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let x =12;
+let x=12;
 console.log(x);
 
-
-
 /* ESERCIZIO 5
-  Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
+  Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-myName = 'Koni';
+let myName="Koni";
 console.log(myName);
-//Const persona = myName;
-persona = 'Koni';
 
-
-
-
+const persona = myName;
+persona = myName;
 
 
 
@@ -97,26 +79,6 @@ persona = 'Koni';
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
-//soluzione 1
-
-console.log(4 - x);;
-
-//soluzione 2
-
-let y=4;
-console.log(y - x);
-
-
-//soluzione 3
-
-let sottrazione = 4 - x;
-console.log(sottrazione);
-
-//soluzione 4
-
-let nuovaSottrazione = y - x;
-console.log(nuovaSottrazione);
 
 
 
@@ -128,21 +90,3 @@ console.log(nuovaSottrazione);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name1 = 'john';
-let name2 = 'John';
-
-//soluzione 1
-console.log('I due Nomi Sono uguali?', name1 === name2);
-console.log('I due Nomi Sono uguali?'+ (name1 === name2));
-
-//soluzione 2
-
-let verifica =name1 === name2;
-console.log('i due nomi sono uguali? ' , verifica);
-
-// soluzione 1
-//console.log('I due nomi sono uguali?'. name.toLowerCase() === name.2toLowerCase ());
-
-//soluzione 2
-let altraVerifica = name2.toLowerCase() === name2.toLowerCase();
-console.log('I due nomi sono uguali?', altraVerifica);

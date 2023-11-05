@@ -4,6 +4,21 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let x=5;
+let y=10;
+
+if (x>y) {
+  console.log('Il numero piu grande e', x)
+}
+else if (x<y) {
+console.log('il numero piu grande e', y)
+}
+else{
+  console.log('il numeri sono uguali')
+}
+
+
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
