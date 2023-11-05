@@ -34,7 +34,7 @@ REGOLE
 
 let myName='Gerta';
 console.log(myName);
-
+document.getElementById('myName').innerHTML += myName;
 
 
 /* ESERCIZIO 3
@@ -43,9 +43,10 @@ console.log(myName);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let somma(12+20);
+let somma = 12+20;
 
 console.log(somma);
+document.getElementById('somma').innerHTML += somma;
 
 
 
@@ -66,11 +67,13 @@ console.log(x);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let myName="Koni";
-console.log(myName);
+//let myName="Koni";
+//console.log(myName);
 
-const persona = myName;
-persona = myName;
+
+
+//const persona = myName;
+//persona = myName;
 
 
 
@@ -80,8 +83,9 @@ persona = myName;
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
-
+let sotrazzione = 4-x;
+console.log(sotrazzione);
+document.getElementById('sotrazzione').innerHTML += sotrazzione;
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -90,3 +94,16 @@ persona = myName;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let name1 = "john";
+let name2 = "John";
+
+let verifica = name1===name2;
+console.log('I due numeri sono uguali?', verifica);
+document.getElementById('verifica').innerHTML += verifica;
+
+let altraVerifica = name1.toLowerCase() === name2.toLowerCase();
+console.log('I due nomi sono uguali?' + altraVerifica);
+document.getElementById('altraVerifica').innerHTML += altraVerifica;
+
+
