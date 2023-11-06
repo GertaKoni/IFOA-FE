@@ -46,18 +46,6 @@ console.log('Esercizio 4');
 
 const firstIndex = pets.indexOf(pets[0]);
 
-if (firstIndex !== -1) {
-  // Rimuovi l'elemento trovato dall'array
-  const firstElement = pets.splice(firstIndex, 1)[0];
-
-  // Aggiungi l'elemento rimosso in ultima posizione
-  pets.push(firstElement);
-}
-
-console.log(pets);
-
-
-
 
 
 
@@ -136,15 +124,7 @@ console.log(justTrims);
 */
 
 console.log('Esercizio 8');
-for (let i = 0; i<cars.length; i++) {
-  const firstLetter = cars[i].color.charAt(0).toLowerCase();
 
-  if (firstLetter === 'b') {
-    console.log('Fizz');
-  }else {
-    console.log('Buzz');
-  }
-}
 
 
 
@@ -183,12 +163,3 @@ const charactersArray = ['g', 'n', 'u', 'z', 'd']
 
 
 const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-const positions = [];
-
-for (let i = 0; i < charactersArray.length; i++) {
-  const character = charactersArray[i].toLowerCase();
-  const position = alphabet.indexOf(character) + 1;
-  positions.push(position);
-}
-
-console.log(positions);
