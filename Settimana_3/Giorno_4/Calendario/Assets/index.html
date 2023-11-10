@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../IFOA-FE/Settimana_3/Giorno_4/Calendario/Assets/CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style.css"/>
   </head>
   <body>
     <div class="contanier">
-      <header>
-        <h1></h1>
-      </header>
-
+      
       <main>
         <!--calendario, form per nuovi appuntamenti-->
-
-        <div id="calendario"></div>
+        <h1></h1>
+        <div id="calendar">
+        </div>
+        
         <!--le celle dei giorni saranno generate da JS e posizionate qua dentro -->
 
         <h2>Aggiungi Apuntamento</h2>
@@ -27,7 +26,7 @@
           <form>
             <div>
               <h4>Ora appuntamento</h4>
-              <input type="time" required id="newMeettingTime" />
+              <input type="time" required id="newMeetingTime" />
             </div>
 
             <div>
@@ -35,8 +34,8 @@
               <input
                 type="text"
                 required
-                id="newMeettingTime"
-                placeholder="Inserisci un nome per  l'appuntamento"
+                id="newMeetingName"
+                placeholder="Nome Appuntamento"
               />
             </div>
 
@@ -59,6 +58,6 @@
       </section>
     </div>
 
-    <script src="../IFOA-FE/Settimana_3/Giorno_4/Calendario/Assets/JS/script.js"></script>
+    <script src="JS/script.js"></script>
   </body>
 </html>

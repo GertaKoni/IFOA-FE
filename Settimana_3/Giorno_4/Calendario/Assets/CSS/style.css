@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0c0a1e;
+    background-color: #141333;
     font-family: 'Outfit', sans-serif;
     color: #ebebeb;
 }
@@ -32,8 +32,115 @@ display: inline;
     color: #7b4089;
 }
 
-.container {
+.contanier {
     max-width: 80vw;
     margin-inline: auto;
     
 }
+
+#calendar {
+    color: #ebebeb;
+    border-radius: 10px;
+    border: 10px solid  #0c0a1e;
+    background-color: #0c0a1e;
+}
+
+.day{
+    display: inline-block;
+    width: 14%;
+    height: 100px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+.day:hover {
+    color: #7a408a;
+}
+
+.day h3 {
+    text-align: center;
+    font-size: 26px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+.day.selected {
+    color: #7a408a
+}
+
+#addMeeting div {
+    display: inline-block;
+    vertical-align:  top;
+    margin-right: 50px;
+
+
+}
+
+input {
+    width: 130px;
+    min-height: 36px;
+    background-color: #0c0a1e;
+    color: #ebebeb;
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+input:focus {
+    background-color: navy;
+}
+
+input::placeholder{
+    color: #ebebeb
+}
+#newMeetingDay {
+    display: inline-block;
+    min-height: 36px;
+
+}
+
+#newMeetingDay.hasDay {
+    font-size: 28px;
+    background-color: #0c0a1e;
+    border-radius: 10px;
+    color: #ebebeb;
+    padding: 0px 5px;
+}
+
+#newMeetingTime::-webkit-calendar-picker-indicator {
+    background-color: #7a408a ;
+    border-radius: 50%;
+}
+form button{
+    cursor: pointer;
+    background-color: #7a408a;
+    color: #ebebeb;
+    border: none;
+    min-height: 55px;
+    font-weight: 700;
+    width: 80px;
+    border-radius: 10px;
+}
+
+#appointments {
+    display: none;
+
+}
+
+#appointments ul li {
+min-height: 30px;
+}
+
+.pallino {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #7b4089;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+  }
