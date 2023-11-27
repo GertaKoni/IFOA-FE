@@ -5,8 +5,8 @@ body {
   }
   
   article {
-    display: flex;
-    flex-wrap: wrap-reverse;
+  display: flex;
+   flex-wrap: wrap-reverse;
   
     gap: 30px;
   
