@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+html,
+body {
+  font-family: "Oxygen", sans-serif;
+}
+/* SVG LOGO */
+.imgCrudazon {
+    width: 30px;
+    height: 30px;
+  }
+
+/* JUMBOTRON */
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+#productList{
+  width: auto;
+}
+
+/* FOOTER */
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem; 
+}
+
+
+
+
+
+
+
+/* STANDARTIZZAZIONE IMG CARD */
+
+.immaginiCard {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
