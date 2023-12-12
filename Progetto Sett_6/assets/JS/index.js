@@ -108,14 +108,14 @@ window.onload = () => {
         }, 1000);
       })
   
-      .catch((error) => {
+     .catch((error) => {
         console.error(
           "Si è verificato un errore durante il recupero degli oggetti:",
           error
         );
         
         let errorAlert = document.getElementById("errorAlert");
-        errorAlert.textContent = "" + error.message;
+        errorAlert.textContent = "Error" + error.message;
         errorAlert.style.display = "block";
       });
   };
