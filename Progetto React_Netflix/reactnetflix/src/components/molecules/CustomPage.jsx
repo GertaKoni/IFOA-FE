@@ -1,6 +1,6 @@
 import {Container, Row, Col, Dropdown} from 'react-bootstrap'
 
-const CustomPageTitleSection = () => {
+const CustomPage = () => {
     return(
         <Container fluid className='px-5 py-2'>
         <Row className='d-flex align-items-center'>
@@ -45,4 +45,4 @@ const CustomPageTitleSection = () => {
     )
 }
 
-export default CustomPageTitleSection
+export default CustomPage

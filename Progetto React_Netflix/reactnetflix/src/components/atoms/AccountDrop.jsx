@@ -1,6 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 
-function AccountDropdown() {
+function AccountDrop() {
   return (
     <Dropdown>
       <Dropdown.Toggle variant='transparent' id="dropdown-basic" className='no-border'>
@@ -18,4 +18,4 @@ function AccountDropdown() {
   );
 }
 
-export default AccountDropdown;
+export default AccountDrop;

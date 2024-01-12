@@ -1,10 +1,10 @@
-import CustomPageTitleSection from '../molecules/CustomPageTitleSection'
+import CustomPage from '../molecules/CustomPage'
 import CustomGallery from '../molecules/CustomGallery';
 
 const CustomMain = () => {
     return (
         <>
-        <CustomPageTitleSection/>
+        <CustomPage/>
         
 
         <div className="section1 p-5">

@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import AccountDropdown from '../atoms/AccountDropdown.jsx'
+import AccountDrop from '../atoms/AccountDrop.jsx'
 
 
 function CustomNavbar() {
@@ -42,7 +42,7 @@ function CustomNavbar() {
             </svg>
             </Nav.Link>
 
-            <AccountDropdown/>
+            <AccountDrop/>
           </Nav>
         </Navbar.Collapse>
       </Container>
