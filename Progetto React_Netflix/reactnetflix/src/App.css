@@ -1,3 +1,16 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #141414;
+  color: white;
+}
+.App {
+  margin-bottom: 5rem;
+  background-color: #141414;
+}
+
+
 .imgZoom {
   transition: transform .2s;
   width: 150px;
@@ -8,4 +21,18 @@
 .imgZoom:hover {
   cursor: pointer;
   transform: scale(1.5); 
+}
+footer .bi {
+  color: rgb(255, 255, 255);
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+footer a,
+footer {
+  color: gray;
+}
+
+footer p:last-child {
+  font-size: 0.9rem;
 }
