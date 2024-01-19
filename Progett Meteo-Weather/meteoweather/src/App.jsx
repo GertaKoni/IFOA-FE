@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'
 import CustomNavbar from './components/CustomNavbar';
 import CustomFooter from './components/CustomFooter';
 import Home from './components/Home';
